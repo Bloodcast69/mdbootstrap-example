@@ -10,11 +10,16 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+   // "typeRoots": [
+    //   "node_modules/@types",
+    // ],
     "types": [
-      "hammerjs"
-    ],
-    "typeRoots": [
-      "node_modules/@types"
+      "hammerjs",
+      "jasmine",
+      "jasminewd2",
+      "node",
+      "q",
+      "selenium-webdriver"
     ],
     "lib": [
       "es2017",
